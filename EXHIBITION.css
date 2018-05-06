@@ -1,0 +1,431 @@
+body{
+	font-family: 'Share Tech Mono', monospace;
+	font-size: 16px;
+	line-height: 24px;
+	margin: 0px;
+	padding: 0px;
+	background-image: url('Images/BG_03.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: white;
+}
+section{
+	text-align: center;
+}
+.clearfloat{
+	clear: both;
+}
+h2{
+	font-size: 30px;
+	text-align: center;
+	font-weight: normal;
+	margin: 10px;
+}
+h3{
+	font-weight: normal;
+}
+hr{
+	height: 3px;
+	color: white;
+	background-color: white;
+	border: none;
+}
+.small_logo{
+	float: left;
+	margin-left: 58px;
+	margin-top: -10px;
+}
+nav.nav_01{
+	text-align: right;
+	margin: 58px 58px 0px 0px;
+}
+nav.nav_01 a:link, nav.nav_01 a:visited{
+	color: white;
+	font-size: 21px;
+	text-decoration: none;
+	padding-bottom: 6px;
+	margin: 0px 18px;
+}
+nav.nav_01 a:hover{
+	border-bottom: 2px solid white;
+}
+nav.nav_01 a.picked{
+	border-bottom: 2px solid white;
+}
+.banner{
+	height: 430px;
+	width: 620px;
+	margin: 190px auto 0px auto;
+	text-align: center;
+}
+.banner p{
+	font-size: 21px;
+	font-weight: normal;
+	text-align: center;
+}
+.banner a:link, .banner a:visited{
+	display: inline-block;
+	color: white;
+	text-decoration: none;
+	border: 2px solid white;
+	width: 188px;
+	height: 20px;
+	font-size: 21px;
+	padding: 21px 10px;
+	margin: 60px 40px 50px 40px;
+} 
+.banner a:hover{
+	background-color: rgba(0,0,0,.2);
+}
+a.arrow:link, a.arrow:visited{
+	border: none;
+}
+a.arrow:hover{
+	background-color: transparent;
+}
+.guides{
+	width: 580px;
+	height: 480px;
+	margin: 163px auto 128px auto;
+	background-color: rgba(0,0,0,.2);
+	padding-bottom: 5px;
+	display: block;
+}
+legend{
+	margin-bottom: 5px;
+}
+fieldset{
+	display: block;
+	height: 395px; 
+	width: 435px;
+	margin: 17px auto 28px auto;
+	border: 2px solid white;
+	padding: 5px 47px 58px 47px;
+}
+fieldset p{
+	text-align: left;
+	margin: 0px;
+	padding: 0px;
+}
+fieldset h3{
+	font-size: 21px;
+	margin-top: -10px;
+	margin-bottom: 47px;
+}
+.pencil_drawing_box{
+	width: 1188px;
+	height: 590px;
+	margin: 128px auto 128px auto;
+}
+.color_drawing_box{
+	width: 1188px;
+	height: 470px;
+	margin: 0px auto 128px auto;
+}
+.pencil_drawing_box p, .color_drawing_box p{
+	text-align: right;
+	margin: 0px;
+}
+.pencil_drawing_box img, .color_drawing_box img{
+	padding-bottom: 15px;
+	border-bottom: 2px solid white;
+}
+.pencil_drawing_box img:hover, .color_drawing_box img:hover{
+    -webkit-transition: transform 2s ease-in-out;
+    -ms-transition:transform 2s ease-in-out;
+    border-bottom: none;
+    box-shadow: 10px 10px 15px rgba(0,0,0,0.3);
+}
+.pic_01 img:hover, .pic_04 img:hover{
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+    padding-bottom: 0px;
+}
+.pic_04 img:hover{
+    -ms-transform: scale(1.7);
+    -webkit-transform: scale(1.7);
+    transform: scale(1.7);
+    padding-bottom: 0px;
+}
+.pic_02_05 img:hover, .pic_03_06 img:hover{
+    -ms-transform: scale(2.1);
+    -webkit-transform: scale(2.1);
+    transform: scale(2.1);
+    padding-bottom: 0px;
+}
+.pic_01{
+	width: 338px;
+	height: 554px;
+	background-color: rgba(0,0,0,0.2);
+	float: left;
+	padding: 20px;
+	margin-right: 20px;
+}
+.pic_02_05{
+	width: 183px;
+	height: 553px;
+	background-color: rgba(0,0,0,0.2);
+	float: left;
+	padding: 20px;
+	margin-right: 20px;
+}
+.pic_03_06{
+	width: 203px;
+	height: 553px;
+	background-color: rgba(0,0,0,0.2);
+	float: left;
+	padding: 20px;
+	margin-right: 20px;
+}
+.pic_04{
+	width: 243px;
+	height: 553px;
+	background-color: rgba(0,0,0,0.2);
+	float: left;
+	padding: 20px;
+}
+.pencil_drawing, .color_drawing{
+	width: 241px;
+	height: 125px;
+	border: 2px solid white;
+	margin-bottom: 20px;
+}
+.pencil_drawing h3, .color_drawing h3{
+	margin: 50px auto;
+}
+.color_drawing_1st_col{
+	width: 281px;
+	height: 471px;
+	margin: 0px;
+	float: left;
+}
+.color_drawing_bg{
+	width: 242px;
+	height: 130px;
+	margin-bottom: 20px;
+	background-color: rgba(0,0,0,0.2);
+	padding: 20px;
+}
+.color_drawing{
+	width: 238px;
+	height: 125px;
+	border: 2px solid white;
+}
+.pic_07{
+	width: 242px;
+	height: 230px;
+	background-color: rgba(0,0,0,0.2);
+	padding: 20px;
+}
+.pic_08_09{
+	font-size: 16px
+	width: 631px;
+	height: 419px;
+	padding: 20px;
+	padding-left: 0px;
+	margin-left: 20px;
+	background-color: rgba(0,0,0,0.2);
+	float: left;
+}
+.pic_08_09 img{
+	margin-left: 18px;
+	margin-bottom: 6px;
+	float: left;
+}
+.pic_10_11{
+	width: 190px;
+	height: 420px;
+	padding: 20px;
+	background-color: rgba(0,0,0,0.2);
+	float: left;
+}
+img.no_border{
+	border-bottom: none;
+}
+.pic_07 img:hover, .pic_10_11 img:hover{
+    -ms-transform: scale(2.0);
+    -webkit-transform: scale(2.0);
+    transform: scale(2.0);
+    padding-bottom: 0px;
+}
+.pic_08_09 img:hover{
+    -ms-transform: scale(1.6);
+    -webkit-transform: scale(1.6);
+    transform: scale(1.6);
+    padding-bottom: 0px;
+}
+.pic_12{
+	width: 335px;
+	height: 545px;
+	background-color: rgba(0,0,0,0.2);
+	padding: 20px;
+	margin: 0px auto;
+}
+.pic_12 p{
+	text-align: right;
+	margin: 0px;
+}
+.overlay_div:hover{
+	-webkit-transition: transform 2s ease-in-out;
+    -ms-transition:transform 2s ease-in-out;
+    border-bottom: none;
+ 	-ms-transform: scale(1.6);
+    -webkit-transform: scale(1.6);
+    transform: scale(1.6);
+    box-shadow: 10px 10px 15px rgba(0,0,0,0.3);
+}
+.overlay_div{
+	width: 335px;
+	height: 480px;
+	background-image: url('Images/12.jpg');
+	background-size: cover;
+	margin-bottom: 20px;
+}
+.overlay_div img{
+	position: absolute;
+	border-bottom: none;
+	margin: 285px auto auto -130px;
+}
+.ipad_pro_box{
+	margin: 130px auto 14px auto;
+	width: 952px;
+	height: 760px;
+}
+.wacom_box{
+	width: 805px;
+	height: 823px;
+	margin: 0px auto 130px auto;
+}
+.ipad_pro_box img, .wacom_box img{
+	padding-bottom: 15px;
+	border-bottom: 2px solid white;
+}
+.ipad_pro_box p, .wacom_box p{
+	text-align: right;
+	margin: 0px;
+}
+.ipad_pro_box img:hover, .wacom_box img:hover{
+	-webkit-transition: transform 2s ease-in-out;
+    -ms-transition:transform 2s ease-in-out;
+    border-bottom: none;
+ 	-ms-transform: scale(1.6);
+    -webkit-transform: scale(1.6);
+    transform: scale(1.6);
+    z-index: 9999;
+    position: relative;
+    padding-bottom: 0px;
+    box-shadow: 10px 10px 15px rgba(0,0,0,0.3);
+}
+.ipad_pro_bg{
+	position: absolute;
+	width: 242px;
+	height: 130px;
+	background-color: rgba(0,0,0,0.2);
+	padding: 20px;
+	margin: 250px auto auto 330px;
+}
+.wacom_bg{
+	position: absolute;
+	width: 242px;
+	height: 130px;
+	background-color: rgba(0,0,0,0.2);
+	padding: 20px;
+	margin: 112px auto auto 265px;
+}
+.ipad_pro, .wacom{
+	width: 238px;
+	height: 100px;
+	border: 2px solid white;
+	padding-top: 25px;
+}
+.circle_01{
+	position: absolute;
+	width: 530px;
+	height: 530px;
+	border-radius: 265px;
+	border: 2px solid white;
+	margin: 65px auto auto 205px;
+}
+.circle_02{
+	position: absolute;
+	width: 718px;
+	height: 718px;
+	border-radius: 359px;
+	border: 2px solid white;
+	margin: 0px auto auto 50px;
+}
+.pic_13{
+	position: absolute;
+	width: 235px;
+	height: 380px;
+	padding: 20px;
+	background-color: rgba(0,0,0,0.2);
+	float: left;
+	margin: 0px auto auto 35px;
+}
+.pic_14{
+	position: absolute;
+	width: 317px;
+	height: 380px;
+	padding: 20px;
+	background-color: rgba(0,0,0,0.2);
+	float: left;
+	margin: 250px auto auto 632px;
+}
+.pic_15{
+	position: absolute;
+	width: 242px;
+	height: 280px;
+	padding: 20px;
+	background-color: rgba(0,0,0,0.2);
+	float: left;
+	margin: 438px auto auto 330px;
+}
+.pic_16{
+	position: absolute;
+	width: 265px;
+	height: 442px;
+	padding: 20px;
+	background-color: rgba(0,0,0,0.2);
+	float: left;
+	margin: 112px auto auto -60px;
+}
+.pic_17{
+	position: absolute;
+	width: 377px;
+	height: 478px;
+	padding: 20px;
+	background-color: rgba(0,0,0,0.2);
+	float: left;
+	margin: 302px auto auto 265px;
+}
+.excited{
+	margin: 128px auto;
+	text-align: center;
+}
+.excited a:link, .excited a:visited{
+	display: block;
+	color: white;
+	text-decoration: none;
+	border: 2px solid white;
+	width: 270px;
+	font-size: 21px;
+	padding: 22px 0px;
+	margin: 55px auto 178px auto;
+} 
+.excited a:hover{
+	background-color: rgba(0,0,0,.2);
+}
+footer{
+	background-color: rgba(0,0,0,.2);
+	padding: 5px;
+	text-align: center;
+}
+footer div.social_icons{
+	width: 150px;
+	height: 40px;
+	float: right;
+	margin-top: -45px;
+	margin-right: 50px;
+}

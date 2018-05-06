@@ -1,0 +1,144 @@
+<!doctype html>
+<html>
+<head>
+	<title>.:FANTASY WORLD:.</title>
+	<link rel="stylesheet" type="text/css" href="CONTACT.css">
+	<link href="https://fonts.googleapis.com/css?family=Share+Tech+Mono" rel="stylesheet">
+	<meta charset="UTF-8">
+</head>
+<body>
+	<script type="text/javascript" src="http://static.tumblr.com/qsifglb/mZjl87ts1/f8.js"></script>
+	<script type="text/javascript">
+	snowStorm.snowColor='#ffffff';
+	snowStorm.flakesMaxActive=30; 
+	</script>
+	<header>
+		<nav class="nav_01">
+			<img class="small_logo" src="Images/LOGO_SMALL.png">
+			<a href="INDEX.html" >HOME</a>
+			<a href="BIOGRAPHY.html">BIOGRAPHY</a>
+			<a href="EXHIBITION.html">EXHIBITION</a>
+			<a href="CLIENTS.html">CLIENTS</a>
+			<a href="#CONTACT" class="picked">CONTACT</a>
+		</nav>
+		<div class="banner">
+			<h2>Did you enjoy the journey?</h2>
+			<p>If you love my projects and want to collaborate, <br>
+			please press the button below to start a conversation_
+			</p>
+			<p>
+				<a href="#conversation">START</a>
+			</p>
+			<p>
+				<a href="#ARROW" class="arrow"><img src="Images/ARROW.png"></a>
+			</p>
+	</header>
+	<section>
+		<div class="conversation">
+			<a name="conversation"></a>
+			<div class="planet_01">
+				<img src="Images/ICON_CONTACT_00.png" width="78px">
+				<div class="dialog_01">
+				<p>Hi there, before starting this conversation,<br> please let me know your FULL NAME.</p>
+				</div>
+			</div>
+			<div class="clearfloat"></div>
+			<div class="astro_02">
+				<img src="Images/ICON_CONTACT_01.png" width="75px">
+				<div class="dialog_02">
+				<p><lable>My name is</lable> 
+				<input type="text" id="MyName" required=""></p>
+				<p id="warning_MyName"></p>
+				</div>
+			</div>
+			<div class="clearfloat"></div>
+			<div class="planet_01">
+				<img src="Images/ICON_CONTACT_00.png" width="78px">
+				<div class="dialog_01">
+				<p>Let's keep in touch, can you<br> 
+				tell me your EMAIL?</p>
+				</div>
+			</div>
+			<div class="clearfloat"></div>
+			<div class="astro_02">
+				<img src="Images/ICON_CONTACT_01.png" width="75px">
+				<div class="dialog_02">
+				<p><lable>This is my email:</lable> 
+				<input type="email" id="MyEmail" required=""></p>
+				<p id="warning_MyEmail"></p>
+				</div>
+			</div>
+			<div class="clearfloat"></div>
+			<div class="planet_03">
+				<img src="Images/ICON_CONTACT_00.png" width="78px">
+				<div class="dialog_03">
+				<p>And your PHONE NUMBER?</p>
+				</div>
+			</div>
+			<div class="clearfloat"></div>
+			<div class="astro_02">
+				<img src="Images/ICON_CONTACT_01.png" width="75px">
+				<div class="dialog_02">
+				<p><lable>My phone number is</lable> 
+				<input type="text" id="MyPhone" required=""></p>
+				</div>
+			</div>
+			<div class="clearfloat"></div>
+			<div class="planet_03">
+				<img src="Images/ICON_CONTACT_00.png" width="78px">
+				<div class="dialog_03">
+				<p>Do you want to send me a brief MESSAGE?</p>
+				</div>
+			</div>
+			<div class="clearfloat"></div>
+			<div class="astro_02">
+				<img src="Images/ICON_CONTACT_01.png" width="75px">
+				<div class="dialog_02">
+				<textarea></textarea>
+				</div>
+			</div>
+			<div class="clearfloat"></div>
+			<a type="submit" href="THANKYOU.html"><div class="submit_01">
+				<img src="Images/ICON_SUBMIT.png" width="75px">
+			</div></a>
+		</div>
+		<div class="one_more_round">
+			<h2>ONE MORE ROUND?</h2>
+			<a href="INDEX.html">BACK TO HOME PAGE</a>
+		</div>
+
+		<script type="text/javascript">
+		document.getElementById('MyName').onblur = function(){
+			if ((this).value =="" | this.value ==" "){
+				this.style.backgroundColor = "rgba(0,0,0,0.2)";
+		}else{
+				this.style.backgroundColor = "transparent";
+		}
+		}
+		document.getElementById('MyEmail').onblur = function(){
+			if ((this).value =="" | this.value ==" "){
+				this.style.backgroundColor = "rgba(0,0,0,0.2)";
+		}else{
+				this.style.backgroundColor = "transparent";
+		}
+		}
+		document.getElementById('MyPhone').onblur = function(){
+			if ((this).value =="" | this.value ==" "){
+				this.style.backgroundColor = "rgba(0,0,0,0.2)";
+		}else{
+				this.style.backgroundColor = "transparent";
+		}
+		}
+		</script>
+	</section>
+	<footer>
+		<p>&copy;2018 All rights reserved by Y Thy | fine art. 
+		</p>
+		<div class="social_icons">
+			<a href="#FACEBOOK"><img src="Images/ICON_05.png"></a>
+			<a href="#TWITTER"><img src="Images/ICON_06.png"></a>
+			<a href="#INSTAGRAM"><img src="Images/ICON_07.png"></a>
+		</div>
+	</footer>
+</body>
+</html>

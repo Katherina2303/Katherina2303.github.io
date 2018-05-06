@@ -1,0 +1,75 @@
+body{
+	font-family: 'Share Tech Mono', monospace;
+	font-size: 16px;
+	line-height: 24px;
+	margin: 0px;
+	padding: 0px;
+	background-image: url('Images/BG_05.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: white;
+}
+section{
+	text-align: center;
+}
+.clearfloat{
+	clear: both;
+}
+h2{
+	font-size: 30px;
+	text-align: center;
+	font-weight: normal;
+	margin: 10px;
+}
+.small_logo{
+	float: left;
+	margin-left: 58px;
+	margin-top: -10px;
+}
+nav.nav_01{
+	text-align: right;
+	margin: 58px 58px 0px 0px;
+}
+nav.nav_01 a:link, nav.nav_01 a:visited{
+	color: white;
+	font-size: 21px;
+	text-decoration: none;
+	padding-bottom: 6px;
+	margin: 0px 18px;
+}
+nav.nav_01 a:hover{
+	border-bottom: 2px solid white;
+}
+nav.nav_01 a.picked{
+	border-bottom: 2px solid white;
+}
+.banner{
+	height: 430px;
+	width: 650px;
+	margin: 210px auto 0px auto;
+	text-align: center;
+}
+.banner p{
+	font-size: 21px;
+	font-weight: normal;
+	text-align: center;
+}
+.banner a:link, .banner a:visited{
+	display: block;
+	color: white;
+	text-decoration: none;
+	border: 2px solid white;
+	width: 150px;
+	font-size: 21px;
+	padding: 22px 50px;
+	margin: 55px auto 90px auto;
+} 
+.banner a:hover{
+	background-color: rgba(0,0,0,.2);
+}
+a.arrow:link, a.arrow:visited{
+	border: none;
+}
+a.arrow:hover{
+	background-color: transparent;
+}

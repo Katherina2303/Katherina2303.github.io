@@ -1,0 +1,140 @@
+body{
+	font-family: 'Share Tech Mono', monospace;
+	font-size: 16px;
+	line-height: 24px;
+	margin: 0px;
+	padding: 0px;
+	background-image: url('Images/BG_01.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: white;
+}
+section{
+	text-align: center;
+}
+h2{
+	font-size: 30px;
+	text-align: center;
+	font-weight: normal;
+	margin: 10px;
+}
+h3{
+	font-size: 16px;
+	font-weight: normal;
+	text-align: center;
+}
+nav.nav_01{
+	text-align: right;
+	margin: 58px 58px 0px 0px;
+}
+nav.nav_01 a:link, nav.nav_01 a:visited{
+	color: white;
+	font-size: 21px;
+	text-decoration: none;
+	padding-bottom: 6px;
+	margin: 0px 18px;
+}
+nav.nav_01 a:hover{
+	border-bottom: 2px solid white;
+}
+nav.nav_01 a.picked{
+	border-bottom: 2px solid white;
+}
+.banner{
+	margin: 190px auto 0px auto;
+	text-align: center;
+}
+.banner a:link, .banner a:visited{
+	display: block;
+	color: white;
+	text-decoration: none;
+	border: 2px solid white;
+	width: 100px;
+	font-size: 21px;
+	padding: 22px 92px;
+	margin: 55px auto 147px auto;
+} 
+.banner a:hover{
+	background-color: rgba(0,0,0,.2);
+}
+a.arrow:link, a.arrow:visited{
+	border: none;
+}
+a.arrow:hover{
+	background-color: transparent;
+}
+.intro{
+	margin: 174px auto;
+}
+.intro_content{
+	background-image: url('Images/CONSTELLATION.gif');
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center;
+	width: 318px;
+	height: 312px;
+	margin: 55px auto auto auto;
+}
+.intro p{
+	text-align: center;
+	font-size: 21px;
+	padding: 100px 50px;
+}
+.services{
+	text-align: center;
+	background-color: rgba(0,0,0,0.2);
+	height: 355px;
+	width: 1170px;
+	margin: 174px auto auto auto;
+	padding-bottom: 5px;
+	display: block;
+}
+fieldset{
+	height: 320px;
+	width: 1105px;
+	display: block;
+	margin: 17px auto 28px auto;
+	border: 2px solid white;
+}
+.service_icons_01{
+	width: 164px;
+	height: 140px;
+	margin: 75px auto;
+	display: inline-block;
+}
+.service_icons{
+	width: 164px;
+	height: 140px;
+	margin: 75px auto;
+	padding-left: 100px;
+	display: inline-block;
+}
+.more_details{
+	margin: 174px auto;
+	text-align: center;
+}
+.more_details a:link, .more_details a:visited{
+	display: block;
+	color: white;
+	text-decoration: none;
+	border: 2px solid white;
+	width: 159px;
+	font-size: 21px;
+	padding: 22px 22px;
+	margin: 55px auto 178px auto;
+} 
+.more_details a:hover{
+	background-color: rgba(0,0,0,.2);
+}
+footer{
+	background-color: rgba(0,0,0,.2);
+	padding: 5px;
+	text-align: center;
+}
+footer div.social_icons{
+	width: 150px;
+	height: 40px;
+	float: right;
+	margin-top: -45px;
+	margin-right: 50px;
+}

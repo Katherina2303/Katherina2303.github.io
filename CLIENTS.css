@@ -1,0 +1,364 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*CLIENTS.css*/
+body{
+	font-family: 'Share Tech Mono', monospace;
+	font-size: 16px;
+	line-height: 24px;
+	margin: 0px;
+	padding: 0px;
+	background-image: url('Images/BG_04.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: white;
+}
+section{
+	text-align: center;
+}
+.clearfloat{
+	clear: both;
+}
+h2{
+	font-size: 30px;
+	text-align: center;
+	font-weight: normal;
+	margin: 10px;
+}
+h3{
+	font-weight: normal;
+}
+hr{
+	height: 3px;
+	color: white;
+	background-color: white;
+	border: none;
+}
+.small_logo{
+	float: left;
+	margin-left: 58px;
+	margin-top: -10px;
+}
+nav.nav_01{
+	text-align: right;
+	margin: 58px 58px 0px 0px;
+}
+nav.nav_01 a:link, nav.nav_01 a:visited{
+	color: white;
+	font-size: 21px;
+	text-decoration: none;
+	padding-bottom: 6px;
+	margin: 0px 18px;
+}
+nav.nav_01 a:hover{
+	border-bottom: 2px solid white;
+}
+nav.nav_01 a.picked{
+	border-bottom: 2px solid white;
+}
+.banner{
+	height: 490px;
+	width: 750px;
+	margin: 150px auto 0px auto;
+	text-align: center;
+}
+.banner p{
+	font-size: 21px;
+	font-weight: normal;
+	text-align: center;
+}
+.banner a:link, .banner a:visited{
+	display: inline-block;
+	color: white;
+	text-decoration: none;
+	border: 2px solid white;
+	width: 180px;
+	font-size: 21px;
+	padding: 22px 30px;
+	margin: 55px 45px -10px 45px;
+} 
+.banner a:hover{
+	background-color: rgba(0,0,0,.2);
+}
+a.arrow:link, a.arrow:visited{
+	border: none;
+}
+a.arrow:hover{
+	background-color: transparent;
+}
+section h2{
+	margin-bottom: 20px;
+}
+.logo_design{
+	width: 1090px;
+	height: 820px;
+	margin: 170px auto 0px auto;
+}
+.big_image{
+	width:500px;
+	height: 335px;
+	padding: 20px;
+	margin: auto;
+	background-color: rgba(0,0,0,0.2);
+}
+.small_image{
+	width: 1040px;
+	height: 341px;
+	padding: 20px 0px 20px 20px;
+	margin: 20px auto 0px auto;
+	background-color: rgba(0,0,0,0.2);
+}
+.small_image img{
+	float: left;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+.small_image img:hover{
+	filter: brightness(70%);
+}
+.brochure_design{
+	width: 998px;
+	height: 440px;
+	padding: 20px;
+	margin: auto;
+	margin-bottom: 150px;
+	background-color: rgba(0,0,0,0.2);
+}
+.brochure_1{
+	width: 480px;
+	height: 460px;
+	margin-right: 20px;
+	float: left;
+}
+.brochure_2{
+	width: 497px;
+	height: 460px;
+	float: left;
+}
+.brochure_design img{
+	padding-bottom: 20px;
+	border-bottom: 2px solid white;
+}
+.brochure_design p{
+	text-align: right;
+	font-size: 16px;
+}
+.poster_design{
+	width: 920px;
+	height: 705px;
+	padding: 20px;
+	margin: auto;
+	margin-bottom: 150px;
+	background-color: rgba(0,0,0,0.2);
+}
+.poster_1{
+	width: 450px;
+	height: 725px;
+	margin-right: 20px;
+	float: left;
+}
+.poster_2{
+	width: 450px;
+	height: 725px;
+	float: left;
+}
+.poster_design img{
+	padding-bottom: 20px;
+	border-bottom: 2px solid white;
+}
+.poster_design p{
+	text-align: right;
+	font-size: 16px;
+}
+img.pos_gif_1{
+	position: absolute;
+	margin-top: -650px;
+	margin-left: -225px;
+	border-bottom: none;
+}
+img.pos_gif_2{
+	position: absolute;
+	margin-top: -650px;
+	margin-left: -225px;
+	border-bottom: none;
+	opacity: 0.6;
+}
+h2.space{
+	margin-top:190px;
+}
+.brand_identity{
+	width: 1140px;
+	height: 1015px;
+	padding: 20px;
+	margin: auto;
+	margin-bottom: 150px;
+	background-color: rgba(0,0,0,0.2);
+}
+table.brand_table{
+	width: 1138px;
+	height: 1000px;
+	padding: 0px;
+	margin: auto;
+	position: absolute;
+}
+tr.tr_01{
+	width: 100%;
+	height: 218px;
+}
+td.td_01{
+	width: 300px;
+	padding: 0px;
+	margin: 0px;
+	vertical-align: middle;
+}
+#td_12{
+	padding: 0px;
+	margin: 0px;
+	display: none;
+}
+td.td_12 div.border_01{
+	width: 816px;
+	height: 235px;
+	padding: 20px;
+	padding-right: 0px;
+	border: 2px solid white;
+	position: absolute;
+}
+td.td_12 div.img_01{
+	width: 820px;
+	position: absolute;
+	margin: 20px;
+	margin-bottom: 0px;
+}
+td.td_12 img{
+	float: left;
+	margin-right: 20px;
+	position: relative;
+}
+
+tr.tr_02{
+	width: 100%;
+	height: 275px;
+}
+td.td_22{
+	margin: 0px;
+}
+td.td_22 div.border_02{
+	width: 797px;
+	height: 313px;
+	padding: 20px;
+	padding-right: 0px;
+	border: 2px solid white;
+	margin-top: -5px;
+	position: absolute;
+}
+td.td_22 div.img_02{
+	width: 840px;
+	position: absolute;
+	margin-top: -25px;
+	margin-left: 20px;
+}
+td.td_22 img{
+	display: inline-block;
+	position: relative;
+	margin-right: 20px;
+	vertical-align: bottom;
+}
+
+tr.tr_03{
+	width: 100%;
+	height: 185px;
+}
+td.td_32{
+	padding: 0px;
+	margin: 0px;
+}
+td.td_32 div.border_03{
+	width: 816px;
+	height: 217px;
+	padding: 20px;
+	padding-right: 0px;
+	margin-top: -18px;
+	border: 2px solid white;
+	position: absolute;
+}
+td.td_32 div.img_03{
+	width: 820px;
+	position: absolute;
+	margin: 20px;
+	margin-top: 3px;
+	margin-bottom: 0px;
+}
+td.td_32 img{
+	float: left;
+	margin-right: 20px;
+	position: relative;
+}
+.fascinated{
+	margin: 128px auto;
+	text-align: center;
+}
+.fascinated a:link, .fascinated a:visited{
+	display: block;
+	color: white;
+	text-decoration: none;
+	border: 2px solid white;
+	width: 180px;
+	font-size: 21px;
+	padding: 22px 0px;
+	margin: 55px auto 178px auto;
+} 
+.fascinated a:hover{
+	background-color: rgba(0,0,0,.2);
+}
+footer{
+	background-color: rgba(0,0,0,.2);
+	padding: 20px;
+	text-align: center;
+}
+footer div.social_icons{
+	width: 150px;
+	height: 40px;
+	float: right;
+	margin-top: -30px;
+	margin-right: 33px;
+}

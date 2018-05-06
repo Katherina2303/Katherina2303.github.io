@@ -1,0 +1,242 @@
+body{
+	font-family: 'Share Tech Mono', monospace;
+	font-size: 16px;
+	line-height: 24px;
+	margin: 0px;
+	padding: 0px;
+	background-image: url('Images/BG_02.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: white;
+}
+section{
+	text-align: center;
+}
+.clearfloat{
+	clear: both;
+}
+h2{
+	font-size: 30px;
+	text-align: center;
+	font-weight: normal;
+	margin: 10px;
+}
+.small_logo{
+	float: left;
+	margin-left: 58px;
+	margin-top: -10px;
+}
+nav.nav_01{
+	text-align: right;
+	margin: 58px 58px 0px 0px;
+}
+nav.nav_01 a:link, nav.nav_01 a:visited{
+	color: white;
+	font-size: 21px;
+	text-decoration: none;
+	padding-bottom: 6px;
+	margin: 0px 18px;
+}
+nav.nav_01 a:hover{
+	border-bottom: 2px solid white;
+}
+nav.nav_01 a.picked{
+	border-bottom: 2px solid white;
+}
+.banner{
+	height: 430px;
+	width: 620px;
+	margin: 190px auto 0px auto;
+	text-align: center;
+}
+.banner p{
+	font-size: 21px;
+	font-weight: normal;
+	text-align: center;
+}
+.banner{
+	margin: 150px auto 0px auto;
+	text-align: center;
+}
+.banner a:link, .banner a:visited{
+	display: inline-block;
+	color: white;
+	text-decoration: none;
+	border: 2px solid white;
+	width: 112px;
+	font-size: 21px;
+	padding: 22px 40px;
+	margin: 55px 45px -10px 45px;
+} 
+.banner a:hover{
+	background-color: rgba(0,0,0,.2);
+}
+a.arrow:link, a.arrow:visited{
+	border: none;
+}
+a.arrow:hover{
+	background-color: transparent;
+}
+.about_me{
+	margin: 190px auto 0px auto;
+	padding: 0px;
+	width: 1020px;
+	height: 460px;
+}
+.small_box_01{
+	width: 250px;
+	height: 325px;
+	text-align: left;
+	font-size: 16px;
+	line-height: 23.5px;
+	padding: 0px;
+	margin: 20px 75px 0px 0px;
+	float: left;
+}
+.small_box_01 p{
+	margin: 0px;
+}
+.small_box_02{
+	width: 356px;
+	height: 420px;
+	background-image: url('Images/AVA_BG.gif');
+	padding: 0px;
+	margin-top: 0px;
+	float: left;
+}
+.small_box_03{
+	width: 250px;
+	height: 58px;
+	text-align: justify-all;
+	font-size: 16px;
+	padding-right: 20px;
+	margin: 20px 0px 0px 67px;
+	float: left;
+}
+.small_box_03 p{
+	margin: 0px;
+}
+.cursor{
+	cursor: pointer;
+}
+#hidden_box{      
+	width: 235px;
+	height: 256px;
+	font-size: 16px;
+	line-height: 20px;
+	text-align: justify;
+	text-align-last: right;
+	padding-right: 25px;
+	margin: 0px 0px 0px 10px;
+	border-right: 2px solid white;
+	display: none;
+}
+.edu_exp{
+	background-color: rgba(0,0,0,0.2);
+	margin: 128px auto;
+	width: 1173px;
+	height: 710px;
+}
+fieldset{
+	width: 1100px;
+	height: 665px;
+	border: 2px solid white;
+	margin: 17px auto 0px auto;
+}
+fieldset h2.exp{
+	margin: 30px auto auto auto;
+
+}
+img.edu{
+	display: block;
+	text-align: center;
+	margin-top: 40px;
+	margin-left: 10px;
+}
+img.exp{
+	display: block;
+	text-align: center;
+	margin-top: 40px;
+	margin-left: 28px;
+}
+.skills{
+	width: 1037px;
+	height: 510px;
+	margin: 128px auto;
+}
+.skills h2{
+	margin-bottom:0px;
+}
+table.skill_box_01{
+	width: 388px;
+	height: 180px;
+	font-size: 16px;
+	line-height: 21px;
+	text-align: left;
+	margin-top: 50px;
+	position: relative;
+	float: left;
+}
+table.skill_box_01 th, table.skill_box_02 th{
+	border: 2px solid white;
+	font-weight: normal;
+	width: 388px;
+	height: 34px;
+	padding-left: 15px;
+}
+table.skill_box_01 td{
+	background-color: rgba(255,255,255,.1);
+	height: 146px;
+	padding-left: 15px;
+	
+}
+table.skill_box_01 td img{
+	float: right;
+	margin-top: 5px;
+}
+table.skill_box_02{
+	width: 388px;
+	height: 180px;
+	font-size: 16px;
+	line-height: 21px;
+	text-align: left;
+	margin: 50px 0px 0px 224px;
+	position: relative;
+	float: right;
+}
+table.skill_box_02 td{
+	background-color: rgba(255,255,255,.1);
+	height: 146px;
+}
+table.skill_box_02 td img{
+	margin: 10px;
+}
+.interested{
+	margin: 128px auto;
+	text-align: center;
+}
+.interested a:link, .interested a:visited{
+	display: block;
+	color: white;
+	text-decoration: none;
+	border: 2px solid white;
+	width: 270px;
+	font-size: 21px;
+	padding: 22px 22px;
+	margin: 55px auto 178px auto;
+} 
+.interested a:hover{
+	background-color: rgba(0,0,0,.2);
+}
+footer{
+	background-color: rgba(0,0,0,.2);
+	padding: 5px;
+	text-align: center;
+}
+footer div.social_icons{
+	width: 150px;
+	height: 40px;
+	float: right;
+	margin-top: -45px;
+	margin-right: 50px;
+}
